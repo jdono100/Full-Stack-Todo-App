@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import TodoForm from './components/TodoForm';
+import TodoApp from './components/Todos/TodoApp';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <TodoForm />
+      <TodoApp />
     </div>
   );
 }
