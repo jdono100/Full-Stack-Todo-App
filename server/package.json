@@ -1,10 +1,13 @@
 {
-  "name": "server",
+  "name": "todo-app",
   "version": "1.0.0",
   "description": "1. `npm init -y`\r 2. `npm install` dependencies (express, mongoose, graphql, dotenv)\r 3. Make server file\r    1. Require dependencies\r    2. Set up PORT and middleware\r    3. Connect to mongoose\r    4. Use cors on react app\r    5. Set up basic route\r    6. Start server listening\r 4. Make config folder and connection file within\r 5. Make models folder and set up Todos schema\r 6. Make seed folder\r    1. Make index and .json to run on `npm run seed`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "cd ../client/ && npm install && npm run build",
+    "watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
