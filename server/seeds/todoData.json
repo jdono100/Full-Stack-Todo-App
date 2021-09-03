@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Go grocery shopping",
+    "completed": false
+  },
+  {
+    "title": "Renew driver's license",
+    "completed": false
+  },
+  {
+    "title": "Buy birthday gift",
+    "completed": true
+  }
+]
